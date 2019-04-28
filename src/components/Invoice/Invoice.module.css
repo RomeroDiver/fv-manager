@@ -1,0 +1,7 @@
+.root {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr 0.5fr 0.5fr repeat(12, 1fr);
+  overflow: hidden;
+}

@@ -1,0 +1,17 @@
+.root {
+  grid-column: 6 / 8;
+  grid-row: 4 / 5;
+  display: flex;
+  flex-direction: column;
+  color: #58595b;
+  font-size: 14px;
+  padding-left: 60px;
+}
+
+.root__name {
+  color: #00a651;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 18px;
+}

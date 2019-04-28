@@ -1,0 +1,28 @@
+.root {
+  background-color: #00a651;
+  color: #fff;
+  transform: skew(-30deg);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.root > div {
+  transform: skew(30deg);
+}
+
+.rootFirst {
+  background-color: #6d6f71;
+}
+
+.rootLast {
+  background-color: #6d6f71;
+  margin-right: 0;
+}
+
+.text {
+  text-align: center;
+}

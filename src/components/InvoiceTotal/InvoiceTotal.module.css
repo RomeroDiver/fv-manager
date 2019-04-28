@@ -1,0 +1,48 @@
+.root {
+  grid-row: 12 / 15;
+  grid-column: 6 / 9;
+  overflow: hidden;
+}
+
+.row {
+  color: #4d4d4f;
+  background-color: #dcddde;
+  margin-bottom: 5px;
+  padding: 15px 25px;
+  display: flex;
+}
+
+.rowTotal {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.row > * {
+  flex: 1;
+}
+
+.row > span:nth-child(2) {
+  text-align: center;
+}
+
+.totalLabel {
+  background-color: #00a651;
+  color: #fff;
+  margin-right: 5px;
+  padding: 15px 0 15px 40px;
+  transform: skew(-30deg);
+  margin-left: -15px;
+}
+
+.totalValue {
+  background-color: #6d6f71;
+  color: #fff;
+  padding: 15px;
+  transform: skew(-30deg);
+  margin-right: -15px;
+}
+
+.totalLabel > div, .totalValue > div {
+  transform: skew(30deg);
+}

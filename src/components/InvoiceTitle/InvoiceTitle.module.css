@@ -1,0 +1,18 @@
+.root {
+  background-color: #6d6f71;
+  color: #fff;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.heading {
+  margin: 0;
+  font-size: 3rem;
+}
